@@ -1,2 +1,2 @@
-# bmt-quiz-2-events--gwu-bhbt-2022-49-
+# bmt-quiz-2-events-<gwu-bhbt-2022-49>
 Repository of BMT Quiz 02
