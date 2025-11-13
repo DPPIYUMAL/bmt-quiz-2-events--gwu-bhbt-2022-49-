@@ -1,0 +1,31 @@
+<!-- ...existing code... -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Showcase of tech events and sessions.">
+    <title>Tech Event Showcase</title>
+    <link rel="stylesheet" href="main.css"> <!-- changed -->
+</head>
+<body>
+
+    <header>
+        <h1>Tech Event Showcase</h1>
+
+        <div class="search-container" role="search" aria-label="Event search">
+            <label for="search-bar" class="visually-hidden">Search events by title or description</label>
+            <input type="search" id="search-bar" placeholder="Search by title or description..." aria-label="Search events">
+        </div>
+    </header>
+
+    <main>
+        <div id="event-grid" class="event-grid-container" aria-live="polite">
+            <!-- Events will be injected here -->
+        </div>
+    </main>
+
+    <script src="main.js" defer></script> <!-- changed -->
+    
+</body>
+</html>
